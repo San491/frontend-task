@@ -1,0 +1,76 @@
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    border: 0.2px solid var(--border-primary);
+    border-radius: 12px;
+    background-color: var(--bg-light);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    gap:  16px;
+    padding-bottom: 30px;
+}
+
+.stat-heading {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--text-secondary);
+    gap: 8px;
+}
+.stat-icon {
+    padding-top: 5px;
+}
+
+.stat-title {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+}
+
+.stat-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-left: 20px;
+    
+}
+
+.stat-diff {
+    font-size: 10px;
+    font-weight: var(--font-weight-md);
+    margin-top: 4px;
+    border-radius: 2px;
+    
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    white-space: nowrap;
+    
+}
+
+.arrowIcon {
+    margin-left: 5px;
+    
+}
+
+.stat-diff.positive {
+    color: var(--success-primary);
+    background-color: var(--success-bg);
+    border: 0.5px solid #05C16833;
+}
+
+.stat-diff.negative {
+    color: var(--error-primary);
+    background-color: var(--error-bg);
+    border: 0.5px solid #FF5A6533;
+}
+
+

@@ -1,0 +1,116 @@
+.settings-label {
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: var(--font-weight-md);
+}
+
+.settings-description {
+    color: var(--text-secondary);
+}
+
+.label-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-card {
+    background-color: var(--bg-light);
+    border: 0.2px solid var(--border-primary);
+    border-radius: 12px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    border-bottom: 0.5px solid #343b4f90;
+}
+
+.option-container.end{
+    border-bottom: none;
+}
+
+.option-name {
+    height: var(--font-size-xs);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-primary);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-md);
+    padding-top: 14px;
+}
+
+.text-box {
+    width: 100%;
+    max-width: 328px;
+    min-height: 90px;
+    padding: 12px 16px;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: inherit;
+    color: var(--text-primary);
+    background-color: var(--input-bg);
+    resize: none;
+    box-sizing: border-box;
+}
+
+.text-box:focus {
+    outline: none;
+}
+
+.text-box::placeholder {
+    color: var(--text-secondary);
+}
+
+
+.photo-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 242px;
+}
+.product-image.user {
+    width: 45px;
+    height: 45px;
+    margin-top:6px;
+    margin-right: 10px;
+    background-color: rgb(217, 63, 255);
+}
+
+.no-photo.user {
+
+}
+
+.upload-icon.user {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #cb3cff40;
+    display: flex;
+    align-items: center;
+    color: var(--text-highlight);
+}
+
+.click-to-upload {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--font-size-xxs);
+}
+.click-to-upload.highlight{
+    color: var(--text-highlight);
+}
+.click-to-upload.line-one {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
