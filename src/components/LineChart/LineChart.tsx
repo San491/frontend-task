@@ -32,7 +32,7 @@ const CustomTooltip: React.FC<any> = ({ active, payload, label }) => {
 
 const LineChartComponent = () => {
     return (
-        <div style={{ width: '100%', height: 140 }}>
+        <div style={{ width: '100%', height: 120 }}>
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart
                     width={450}
