@@ -13,28 +13,40 @@ const NotificationSettings: React.FC = () => {
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>I'm mentioned in a message</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>Someone replies to any message</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>I’m assigned a task</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>A task is overdue</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
@@ -47,28 +59,40 @@ const NotificationSettings: React.FC = () => {
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>Daily summary</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>Weekly summary</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>Monthly summary</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>
                 <div className="option-container notif">
                     <div className="option-name">
                         <span>Yearly summary</span>
-                        <TooltipIcon />
+                        <div className="tooltip-wrapper">
+                            <TooltipIcon />
+                            <span className="tooltip-text">Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing.</span>
+                        </div>
                     </div>
                     <ToggleButtons />
                 </div>

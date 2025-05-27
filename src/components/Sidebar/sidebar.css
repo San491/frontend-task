@@ -19,6 +19,7 @@
 }
 
 .toggle-btn {
+    cursor: pointer;
     width: 20px;
     height: 20px;
 }
@@ -80,7 +81,7 @@
     gap: 10px;
     padding: 10px;
     border-radius: 4px;
-    transition: background 0.4s, color 0.2s;
+    transition: background 0.5s, color 0.5s;
     
 }
 .nav-link:hover {
@@ -91,7 +92,7 @@
     gap: 10px;
     padding: 10px;
     border-radius: 4px;
-    transition: background 0.4s, color 0.2s;
+    transition: ease background 0.5s, color 0.5s;
     
 }
 .nav-link.active {
@@ -120,6 +121,7 @@
 
 
 .profile {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;

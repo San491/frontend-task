@@ -13,6 +13,7 @@ import { ReactComponent as PriceIcon } from "../../assets/dollarIcon.svg"
 import { ReactComponent as CompanyIcon } from "../../assets/bagIcon.svg"
 import { ReactComponent as StatusIcon } from "../../assets/checkIcon.svg"
 import { ReactComponent as DropDownIcon } from "../../assets/chevronDownBig.svg";
+import { ReactComponent as FilterIcon } from "../../assets/filterIcon.svg";
 import CustomCheckbox from "../../components/CustomCheckbox/CustomCheckbox";
 import { productList } from "../../data/productList";
 import { companyList } from "../../data/productList";
@@ -191,17 +192,18 @@ const ProductListPage: React.FC = () => {
                     <div className="product-table-container">
                         <div className="product-table-header">
                             <span className="table-header-title">All products</span>
+                            <span className="rows-number outer"><span className="rows-number">1-9</span> of 256</span>
                         </div>
 
                         <table className="product-table">
                             <thead>
                                 <tr>
                                     <th className="narrow-column check"><CustomCheckbox /></th>
-                                    <th className="headers"><ProductsIcon className="header-icon" /> <span>Product Name</span></th>
-                                    <th className="headers"><CategoryIcon className="header-icon" /> <span>Category</span></th>
-                                    <th className="headers"><PriceIcon className="header-icon" /> <span>Price</span></th>
-                                    <th className="headers"><CompanyIcon className="header-icon" /> <span>Company</span></th>
-                                    <th className="headers"><StatusIcon className="header-icon" /> <span>Status</span></th>
+                                    <th className="headers"><ProductsIcon className="header-icon" /> <span>Product Name</span><FilterIcon className="header-icon filter" /> </th>
+                                    <th className="headers"><CategoryIcon className="header-icon" /> <span>Category</span><FilterIcon className="header-icon filter" /> </th>
+                                    <th className="headers"><PriceIcon className="header-icon" /> <span>Price</span><FilterIcon className="header-icon filter" /> </th>
+                                    <th className="headers"><CompanyIcon className="header-icon" /> <span>Company</span><FilterIcon className="header-icon filter" /> </th>
+                                    <th className="headers"><StatusIcon className="header-icon" /> <span>Status</span><FilterIcon className="header-icon filter" /> </th>
                                     <th className="narrow-column edit" />
                                 </tr>
                             </thead>

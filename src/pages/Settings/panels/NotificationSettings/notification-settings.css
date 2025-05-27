@@ -7,3 +7,37 @@
 .settings-card {
     margin-bottom: 36px;
 }
+
+.tooltip-wrapper {
+  margin-top: 6px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 211px;
+  height: 92px;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  position: absolute;
+  z-index: 10000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.tooltip-wrapper:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

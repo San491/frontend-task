@@ -55,7 +55,7 @@
     border-radius: 8px;
     font-size: 12px;
     font-family: inherit;
-    color: var(--text-primary);
+    color: var(--text-secondary);
     background-color: var(--input-bg);
     resize: none;
     box-sizing: border-box;
@@ -83,10 +83,6 @@
     margin-top:6px;
     margin-right: 10px;
     background-color: rgb(217, 63, 255);
-}
-
-.no-photo.user {
-
 }
 
 .upload-icon.user {
