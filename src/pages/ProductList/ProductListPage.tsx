@@ -61,7 +61,7 @@ const ProductListPage: React.FC = () => {
 
     const [createModalOpen, setCreateModalOpen] = useState<boolean>(false)
 
-    const [newProduct, setNewProduct] = useState<Product | null>(null);
+
 
     const handleAddNewProduct = () => {
         const lastId = products.length > 0 ? products[products.length - 1].id : 0;
